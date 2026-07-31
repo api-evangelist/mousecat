@@ -1,20 +1,78 @@
 aid: mousecat
-name: Mousecat
-description: Mousecat is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: MouseCat
+description: >-
+  MouseCat is an agentic AI infrastructure company for risk operations, founded in 2026 and
+  a graduate of the Y Combinator Winter 2026 batch. The platform runs human-quality fraud
+  investigations to help risk teams automatically detect, investigate, and mitigate emerging
+  fraud, scale investigations, build better models, and make faster decisions. MouseCat deploys
+  entirely within customer-owned cloud environments, integrating with the data, vendors, and
+  APIs a risk team already relies on so companies retain complete control of sensitive data.
+  The company was founded by Nicholas Aldridge (CEO) and Joseph McAllister (CTO) and is backed
+  by Y Combinator, Imagination Capital, and SurgePoint Capital. As of this profile MouseCat is
+  an early-stage startup with a public marketing site and a private application; it publishes
+  no public API, SDK, developer documentation, or MCP server yet.
 url: https://raw.githubusercontent.com/api-evangelist/mousecat/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.mousecat.ai/images/logo_white.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- imagination-capital
+- surgepoint-capital
+x-batch: YC W26
+x-founders:
+- FN: Nicholas Aldridge
+  role: Co-Founder & CEO
+  url: https://www.linkedin.com/in/nicholas-aldridge/
+- FN: Joseph McAllister
+  role: Co-Founder & CTO
+  url: https://www.linkedin.com/in/joseph-mcallister/
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fraud Detection
+- Fraud Investigation
+- Risk Operations
+- Artificial Intelligence
+- Agentic AI
+- Financial Services
+- Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mousecat-domain-security.yml
+- type: Website
+  url: https://www.mousecat.ai
+- type: Login
+  url: https://app.mousecat.ai
+- type: SignUp
+  url: https://www.mousecat.ai/book-demo
+- type: Crunchbase
+  url: https://www.ycombinator.com/companies/mousecat
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mousecat
+- type: Twitter
+  url: https://x.com/mousecat_ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
