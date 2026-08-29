@@ -12,6 +12,17 @@ description: >-
   an early-stage startup with a public marketing site and a private application; it publishes
   no public API, SDK, developer documentation, or MCP server yet.
 url: https://raw.githubusercontent.com/api-evangelist/mousecat/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
